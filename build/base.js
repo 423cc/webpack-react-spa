@@ -1,5 +1,5 @@
 import config from './config';
-import { loaders, plugins, configs, inputs, outputs, utils } from 'webpack-app-kits';
+import { loaders, plugins, configs, inputs, outputs } from 'webpack-app-kits';
 import 'next-flatten';
 
 export default (inEnv) => {
@@ -13,7 +13,10 @@ export default (inEnv) => {
     output: outputs.spa({
       publicPath
     }),
-    resolve: { alias: configs.alias(), extensions: configs.extensions() },
+    resolve: {
+      alias: configs.alias(),
+      extensions: configs.extensions()
+    },
     module: {
       rules: nx.flatten([
         loaders.babel(),

@@ -1,8 +1,5 @@
 {
-  "presets": [
-    "env",
-    "react"
-  ],
+  "presets": ["env", "react"],
   "plugins": [
     "react-hot-loader/babel",
     "transform-array-from",
@@ -10,13 +7,6 @@
     "transform-es2015-spread",
     "transform-object-rest-spread",
     "transform-decorators-legacy",
-    "syntax-dynamic-import",
-    [
-      "import",
-      {
-        "libraryName": "antd",
-        "libraryDirectory": "lib"
-      }
-    ]
+    "syntax-dynamic-import"
   ]
 }
