@@ -1,4 +1,4 @@
-import AppBase, {$api, $config, $store} from '#';
+import AppBase, {$api, $config, $store,DashBoard} from '#';
 import {HashRouter as Router, Route} from 'react-router-dom';
 
 import Login from './login';
@@ -30,7 +30,8 @@ export default class extends AppBase {
     return (
       <Router ref={(root) => (this.root = root)}>
         <section className="route-wrapper">
-          <Route exact path="/" component={Login}/>
+          {/*<Route exact path="/" component={Login}/>*/}
+          <Route exact path="/" component={DashBoard}/>
           <Route path="/modules" component={Admin}/>
         </section>
       </Router>

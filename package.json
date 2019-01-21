@@ -58,7 +58,12 @@
     "webkit-sass-mixins": "github:afeiship/webkit-sass-mixins",
     "webkit-sass-reset": "github:afeiship/webkit-sass-reset",
     "webkit-sassui-short-name": "github:afeiship/webkit-sassui-short-name",
-    "webkit-sassui-transform-center": "github:afeiship/webkit-sassui-transform-center"
+    "webkit-sassui-transform-center": "github:afeiship/webkit-sassui-transform-center",
+    "frappe-gantt": "^0.3.0",
+    "ant-design-pro": "^2.1.0",
+    "jquery": "^3.3.1",
+    "frappe-gantt-react": "^0.0.8",
+    "gantt-for-react": "^0.2.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",

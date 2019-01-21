@@ -14,5 +14,15 @@ export const $date = require('next-date');
 /*===services end===*/
 
 /*===components start===*/
+
+export const DashBoard = require('views/dashboard').default;
 export const TestComp = require('views/test-comp').default;
+export const BarComp = require('views/bar').default;
+export const GanntComp = require('views/gantt-demo').default;
+export const PieComp = require('views/pieChart').default;
+export const TableComp = require('views/table').default;
+export const TreeComp = require('views/tree').default;
+
+export const GanntComp1 = require('views/gantt-demo1').default;
+
 /*===components end===*/

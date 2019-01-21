@@ -4,6 +4,10 @@ module.exports = {
     '/api': {
       target: 'http://120.27.13.225:80',
       changeOrigin: true
+    },
+    '/hwe': {
+      target: 'http://localhost:8086',
+      changeOrigin: true
     }
   },
   vendors: [
